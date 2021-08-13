@@ -18,12 +18,35 @@ body
     height: 4vh;
     background-color: #2083F8;
 }
-.menu .wrapper
+.menu>.wrapper
 {
     max-width: 1000px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .menu .wrapper img
 {
     width: 20em;
+}
+.menu .wrapper .nav-bar 
+{
+    width: 22em;
+}
+.menu .wrapper .nav-bar ul
+{
+    display: flex;
+    justify-content: space-between;
+}
+.menu .wrapper .nav-bar li
+{
+    list-style: none;
+}
+.menu .wrapper .nav-bar li a
+{
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    color: rgba(0,0,0,.55);
 }
