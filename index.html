@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" crossorigin="anonymous">
 </head>
 <body>
     <header>
@@ -13,12 +14,35 @@
         <div class="menu">
             <div class="wrapper">
                 <a href="index.html"><img src="images/logo.jpg"></a>
+                <div class="nav-bar">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Foto Gallery</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
             </div>
         </div>    
     </header>
-
-
-    <main></main>
+    <main>
+        <div class="slider">
+                <div class="sliderContainer" id="sliderContainer">
+                    <div class="slide" style="background-image: url('images/saxophone.jpg')">
+                        <h1>Welcome</h1>
+                    </div>
+                    <div class="slide"  style="background-image: url('images/mixer.jpg')">
+                        <h1>We make music!</h1>
+                    </div>
+                    <div class="slide"  style="background-image: url('images/concert.jpg')">
+                        <h1>Music is Life!</h1>
+                    </div>
+                </div>
+                <i class="fas fa-chevron-left" id="slidePrev" onclick="prev()"></i>
+                <i class="fas fa-chevron-right" id="slideNext" onclick="next()"></i>
+            </div>     
+        </div>
+    </main>
     <footer></footer>
 </body>
 </html>
