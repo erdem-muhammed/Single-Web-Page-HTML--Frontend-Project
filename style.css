@@ -6,6 +6,7 @@
 {
     --primary: #2083F8;
     --sliderHeight: 650px;
+    --services: #756767;    
 }
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body
@@ -123,11 +124,13 @@ main .slider
     font-weight: 200;
     padding: 0;
     margin: 10px 0;
+    color: var(--services);
 }
 .container-text .services-text
 {
     width: 500px;
     margin: 0 auto;
+    color: var(--services);
 }
 .services-content
 {
@@ -142,7 +145,16 @@ main .slider
     margin-top: 40px;
     padding: 10px 10px;
 }
+
+.middle
+{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
 .content-card .card-images>img
 {
     height: 80px;
+}
+.content-card .card-images>h3
+{
+    color: var(--services);
 }
