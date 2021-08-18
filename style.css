@@ -185,7 +185,7 @@ main .slider
 }
 .team-card .profilephoto>img
 {
-    height: 120px;
+    height: 80px;
     border-radius: 50%;
 }
 .jobTitle, .definitionJob
@@ -197,4 +197,13 @@ main .slider
     text-align: center;
     margin-top: 10px;
     color: var(--text);
+}
+.team-card .links
+{
+    text-align: center;
+    margin: 30px 0 10px 0;
+}
+.team-card .links a img
+{
+    height: 18px;
 }
