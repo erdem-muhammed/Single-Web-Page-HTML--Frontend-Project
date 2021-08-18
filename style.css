@@ -232,3 +232,15 @@ main .slider
 {
     font-size: 2em;
 }
+.contact
+{
+    
+}
+.contact .wrapper
+{
+    background-color: #eef2f5;
+    margin: 0 auto;
+    max-width: 1000px;
+    height: 400px;
+    margin-bottom: 100px;
+}
