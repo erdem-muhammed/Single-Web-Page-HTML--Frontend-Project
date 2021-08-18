@@ -160,3 +160,17 @@ main .slider
 {
     color: var(--text);
 }
+.team .wrapper
+{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.team-card .profilephoto 
+{
+    text-align: center;
+}
+.team-card .profilephoto>img
+{
+    height: 80px;
+}
