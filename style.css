@@ -160,6 +160,11 @@ main .slider
 {
     color: var(--text);
 }
+.team
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 .team .wrapper
 {
     max-width: 1000px;
@@ -206,4 +211,24 @@ main .slider
 .team-card .links a img
 {
     height: 18px;
+}
+.aboutUs
+{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.aboutUs .wrapper
+{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.aboutUs-text
+{
+    text-align: center;
+    color: var(--text);
+}
+.aboutUs-text h1
+{
+    font-size: 2em;
 }
