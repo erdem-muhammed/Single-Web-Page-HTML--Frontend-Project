@@ -165,12 +165,36 @@ main .slider
     max-width: 1000px;
     margin: 0 auto;
 }
-
+.profile
+{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.team-card
+{
+    width: 33.3333%;
+    padding: 15px;
+}
 .team-card .profilephoto 
 {
     text-align: center;
+    border-bottom: 1px solid #706f6f2a;
+    padding-bottom: 10px;
 }
 .team-card .profilephoto>img
 {
-    height: 80px;
+    height: 120px;
+    border-radius: 50%;
+}
+.jobTitle, .definitionJob
+{
+    color: var(--text);
+}
+.team-card>.team-text
+{
+    text-align: center;
+    margin-top: 10px;
+    color: var(--text);
 }
