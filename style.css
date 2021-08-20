@@ -273,7 +273,8 @@ main .slider
 {
     width: 230px;
     height: 600px;
-    background-color: black;
+    background-position: center;
+    background-size: cover;
 }
 .photos .column1 .column1-first
 {
@@ -283,7 +284,8 @@ main .slider
 {
     width: 230px;
     height: 400px;
-    background-color: blue;
+    background-position: center;
+    background-size: cover;
 }
 .photos .column2 .column2-first, .photos .column2 .column2-second
 {
