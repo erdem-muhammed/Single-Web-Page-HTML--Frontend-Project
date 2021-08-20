@@ -365,3 +365,22 @@ main .slider
 {
     transition: all ease 0.4s;
 }
+footer .wrapper
+{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+footer .wrapper .footer
+{
+    text-align: center;
+    margin-bottom: 50px;
+    position: relative;
+}
+#backtotop
+{
+    text-decoration: underline;
+    position: absolute;
+    bottom: -1vh;
+    right: 0;
+    cursor: pointer;
+}
