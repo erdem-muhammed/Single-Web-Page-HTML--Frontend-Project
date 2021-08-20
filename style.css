@@ -132,11 +132,12 @@ main .slider
     margin: 10px 0;
     color: var(--text);
 }
-.container-text .sub-text
+.sub-text
 {
     width: 500px;
     margin: 0 auto;
     color: var(--text);
+    margin-bottom: 30px;
 }
 .services-content
 {
@@ -241,6 +242,24 @@ main .slider
 {
     font-size: 2em;
 }
+
+/*--------------CAROUSEL---------------*/
+
+.carousel .wrapper
+{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.gallery
+{
+    text-align: center;
+}
+.gallery .carousel-text
+{
+    max-width: ;
+    color: var(--text);
+}
+
 
 /* -----------CONTACT--------------*/
 .contact
