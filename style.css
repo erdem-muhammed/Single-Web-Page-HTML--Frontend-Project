@@ -254,12 +254,19 @@ main .slider
 {
     text-align: center;
 }
-.gallery .carousel-text
+.gallery .photos
 {
-    max-width: ;
-    color: var(--text);
+    width: 100%;
+    display: flex;
 }
-
+.photos .column1
+{
+    padding-top: 1.3em;
+}
+.photos .column2
+{
+    padding-bottom: 1.3em;
+}
 
 /* -----------CONTACT--------------*/
 .contact
