@@ -21,6 +21,7 @@ body
     height: 4vh;
     background-color: #2083F8;
 }
+/*--------------------MENU------------------*/
 .menu>.wrapper
 {
     max-width: 1000px;
@@ -58,6 +59,7 @@ main .slider
     position: relative;
     overflow: hidden;
 }
+/*---------------SLIDER-------------*/
 
 .sliderContainer
 {
@@ -106,6 +108,9 @@ main .slider
 {
     right: 3vw;
 }
+
+
+/*---------------SERVICES-------------*/
 .services
 {
     margin: 8em 0;
@@ -160,6 +165,8 @@ main .slider
 {
     color: var(--text);
 }
+
+/*----------------TEAM-------------------*/
 .team
 {
     margin-top: 100px;
@@ -212,6 +219,8 @@ main .slider
 {
     height: 18px;
 }
+
+/*---------------ABOUT US--------------------*/
 .aboutUs
 {
     margin-top: 100px;
@@ -232,6 +241,8 @@ main .slider
 {
     font-size: 2em;
 }
+
+/* -----------CONTACT--------------*/
 .contact
 {
     
@@ -278,6 +289,7 @@ main .slider
     border-bottom: 1px solid black;
     outline: none;
     padding: 15px 10px;
+    border-radius: 3px;
     font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 #message::placeholder
