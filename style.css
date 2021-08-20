@@ -258,6 +258,8 @@ main .slider
 {
     width: 100%;
     display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
 }
 .photos .column1
 {
@@ -267,6 +269,27 @@ main .slider
 {
     padding-bottom: 1.3em;
 }
+.photos .column1 .column1-first, .photos .column1 .column1-second
+{
+    width: 230px;
+    height: 600px;
+    background-color: black;
+}
+.photos .column1 .column1-first
+{
+    margin-bottom: 80px;
+}
+.photos .column2 .column2-first, .photos .column2 .column2-second, .photos .column2 .column2-third
+{
+    width: 230px;
+    height: 400px;
+    background-color: blue;
+}
+.photos .column2 .column2-first, .photos .column2 .column2-second
+{
+    margin-bottom: 40px;
+}
+
 
 /* -----------CONTACT--------------*/
 .contact
