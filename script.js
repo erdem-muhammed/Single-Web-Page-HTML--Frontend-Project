@@ -41,3 +41,32 @@ function timer()
         next();
     }, 4500);
 }
+
+
+/////CONTACT FORM
+const submit = document.getElementById("btn-submit");
+const inputAll = document.querySelector(".form").querySelectorAll("input");
+const message = document.getElementById("message");
+const warning = document.getElementById("warning");
+const form = document.querySelector(".form");
+
+submit.onclick = function submit()
+{
+    for(var i = 0; i < inputAll.length; i++)
+    {
+        if(inputAll[i].value == "" && message.value == "")
+        {
+        warning.innerHTML = "Please fill all the fields!";
+        warning.style.color = "red";
+        warning.style.marginBottom = "10px";
+        return;
+        }
+        else
+        function clearData()
+    }
+}
+function clearData()
+{
+    form.value = "";
+    return;
+}
