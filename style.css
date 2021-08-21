@@ -302,7 +302,6 @@ main .slider
 {
     margin: 0 auto;
     max-width: 1000px;
-    margin-bottom: 100px;
 }
 .contact .wrapper .container
 {
@@ -312,6 +311,7 @@ main .slider
     background-color: #EBEEF0;
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 100px;
 }
 .contact .wrapper .info, .contact .wrapper .form
 {
@@ -425,5 +425,45 @@ footer .wrapper .footer
     .column2 .column2-first, .column2 .column2-second, .column2 .column2-third
     {
         width: 250px !important;
+    }
+}
+@media  (max-width: 480px)
+{
+    .wrapper
+    {
+        max-width: 400px !important;
+    }
+    .sub-text
+    {
+        width: 380px;
+    }
+    .headline
+    {
+        font-size: 3.5em;
+    }
+    .services-content
+    {
+        justify-content: center !important;
+    }
+    .services-content .content-card
+    {
+        width: 250px;
+    }
+    .profile .team-card
+    {
+        width: 100%;
+    }
+    .contact .wrapper .container
+    {
+        height: auto;
+        margin-bottom: 50px;
+    }
+    .container .info, .container .form
+    {
+        width: 100% !important;
+    }
+    #backtotop
+    {
+        display: none;
     }
 }
