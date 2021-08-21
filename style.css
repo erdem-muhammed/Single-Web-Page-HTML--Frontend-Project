@@ -403,3 +403,27 @@ footer .wrapper .footer
         width: 200px !important;
     }
 }
+@media (max-width: 768px)
+{
+    .wrapper
+    {
+        max-width: 650px !important;
+    }
+    .services-content .content-card
+    {
+        width: 200px;
+    }
+    .gallery .photos
+    {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .column1 .column1-first, .column1 .column1-second
+    {
+        width: 250px !important;
+    }
+    .column2 .column2-first, .column2 .column2-second, .column2 .column2-third
+    {
+        width: 250px !important;
+    }
+}
