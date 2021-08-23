@@ -54,13 +54,31 @@ body
     font-weight: 500;
     color: rgba(0,0,0,.55);
 }
+#hamburger-icon
+{
+    display: none;
+    cursor: pointer;
+}
+#hamburger
+{
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#hamburger ul li
+{
+    list-style: none;
+    width: 100%;
+    display: block;
+}
+/*---------------SLIDER-------------*/
+
 main .slider
 {
     position: relative;
     overflow: hidden;
 }
-/*---------------SLIDER-------------*/
-
 .sliderContainer
 {
     width: 99999px;
@@ -385,6 +403,7 @@ footer .wrapper .footer
     right: 0;
     cursor: pointer;
 }
+/*----------RESPONSIVE DESIGN----------*/
 @media (max-width: 992px)
 {
     .wrapper
@@ -441,6 +460,23 @@ footer .wrapper .footer
     .headline
     {
         font-size: 3.5em;
+    }
+    .menu>.wrapper
+    {
+        position: relative;
+        overflow: hidden;
+    }
+    .nav-bar
+    {
+        display: none;
+    }
+    #hamburger-icon
+    {
+        display: block;
+    }
+    #slidePrev, #slideNext
+    {
+        font-size: 1.7em;
     }
     .services-content
     {

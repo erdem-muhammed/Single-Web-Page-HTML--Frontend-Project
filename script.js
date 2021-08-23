@@ -1,3 +1,23 @@
+/////HAMBURGER-MENU
+const menubtn = document.getElementById("hamburger-icon");
+const hamburger = document.getElementById("hamburger");
+menubtn.onclick = function()
+{
+    if(hamburger.style.display == "block")
+    {
+       hamburger.style.display = "none";
+       console.log(hamburger.style);
+    }
+    else
+    {
+       hamburger.style.display = "block";
+    }
+    
+}
+
+
+
+
 
 /////SLIDER 
 const slider = document.getElementById("sliderContainer");
@@ -61,8 +81,6 @@ submit.onclick = function submit()
         warning.style.marginBottom = "10px";
         return;
         }
-        else
-        function clearData()
     }
 }
 function clearData()
