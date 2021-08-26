@@ -28,12 +28,13 @@ timer();
 
 function next()
 {
-    //CHECK
+
     if(current == max-1)
     {
-        return;
+        current = 0
     }
-    current++;
+    else
+        current++;
     //UPDATE
     translateUpdate();
 }
@@ -70,25 +71,46 @@ const message = document.getElementById("message");
 const warning = document.getElementById("warning");
 const form = document.querySelector(".form");
 
-submit.onclick = function submit()
+
+submit.onclick = function()
 {
+    let boskutuvarmi = false;
     for(var i = 0; i < inputAll.length; i++)
     {
-        if(inputAll[i].value == "" && message.value == "")
+        if(inputAll[i].value == "")
         {
+        boskutuvarmi = true;
+        break
+
+        }
+
+    }
+    if(message.value == "")
+    {
+        boskutuvarmi = true
+    }
+
+    if(boskutuvarmi)
+    {
         warning.innerHTML = "Please fill all the fields!";
         warning.style.color = "red";
         warning.style.marginBottom = "10px";
-        return;
-        }
     }
+    else
+    {
+        clearData()
+    }
+
 }
 function clearData()
 {
-    form.value = "";
-    return;
-}
+    for(input of inputAll)
+    {
+        input.value = "";
+    }
+    message.value = "";
 
+}
 /////SCROLL TO TOP
 /*const backtotop = document.getElementById("backtotop");
 backtotop.addEventListener("click", function()
@@ -97,11 +119,11 @@ backtotop.addEventListener("click", function()
         {
             top: 0,
             left: 0,
-            behavior: 'smooth',
+            behavior: 'smooth'
         }
-    );
-    
+    );   
 })*/
+
 $('#backtotop').click(function()
 {
     window.scrollTo(
