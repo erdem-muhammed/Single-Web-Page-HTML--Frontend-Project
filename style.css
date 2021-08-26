@@ -312,10 +312,7 @@ main .slider
 
 
 /* -----------CONTACT--------------*/
-.contact
-{
-    
-}
+
 .contact .wrapper
 {
     margin: 0 auto;
@@ -340,7 +337,7 @@ main .slider
 {
     display: flex;
     flex-direction: column;
-    padding: 50px 20px 20px 20px;
+    padding: 30px 20px 20px 20px;
 }
 .contact .wrapper .form input
 {
