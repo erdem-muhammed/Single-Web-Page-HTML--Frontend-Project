@@ -88,3 +88,27 @@ function clearData()
     form.value = "";
     return;
 }
+
+/////SCROLL TO TOP
+/*const backtotop = document.getElementById("backtotop");
+backtotop.addEventListener("click", function()
+{
+    window.scrollTo(
+        {
+            top: 0,
+            left: 0,
+            behavior: 'smooth',
+        }
+    );
+    
+})*/
+$('#backtotop').click(function()
+{
+    window.scrollTo(
+        {
+            top: 0,
+            left: 0,
+            behavior: 'smooth'
+        }
+    );
+})  
