@@ -76,6 +76,20 @@ body
     width: 100%;
     display: block;
 }
+#hamburger ul li a
+{
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    color: rgba(0,0,0,.55);
+    line-height: 1.4em;
+}
+#hamburger ul li a:hover
+{
+    color: #3f3e3e;
+    background-color: #ffe3be;
+    border-radius: 4px;
+}
 /*---------------SLIDER-------------*/
 
 main .slider
