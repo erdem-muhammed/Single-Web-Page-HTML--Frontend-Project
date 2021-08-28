@@ -471,6 +471,11 @@ footer .wrapper .footer
     {
         display: none;
     }
+    .menu .wrapper
+    {
+        display: block;
+        text-align: center;
+    }
     #hamburger-icon
     {
         display: block;

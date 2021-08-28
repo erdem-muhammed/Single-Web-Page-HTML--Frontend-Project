@@ -3,14 +3,14 @@ const menubtn = document.getElementById("hamburger-icon");
 const hamburger = document.getElementById("hamburger");
 menubtn.onclick = function()
 {
-    if(hamburger.style.display == "block")
+    if(hamburger.style.display == "contents")
     {
        hamburger.style.display = "none";
        console.log(hamburger.style);
     }
     else
     {
-       hamburger.style.display = "block";
+       hamburger.style.display = "contents";
     }
     
 }
